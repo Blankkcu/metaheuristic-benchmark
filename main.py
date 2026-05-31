@@ -34,7 +34,7 @@ def test_knapsack():
     print("\n")
 
 
-def test_regine():
+def test_queens():
     n = 8
     numar_rulari = 20
 
@@ -59,4 +59,4 @@ def test_regine():
 
 if __name__ == "__main__":
     test_knapsack()
-    test_regine()
+    test_queens()

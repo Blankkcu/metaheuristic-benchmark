@@ -21,5 +21,3 @@ class Solution(ABC):
     def clone(self):
         return copy.deepcopy(self)
 
-    def __str__(self):
-        return f"Cost: {self.cost} | Representation: {self.representation}"
